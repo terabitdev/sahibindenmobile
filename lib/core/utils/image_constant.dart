@@ -76,5 +76,28 @@ class ImageConstant {
   static String imgUserOnprimary = '$imagePath/img_user_onprimary.svg';
   static String imgShape = '$imagePath/img_shape.png';
   static String imgLinkedinBlueGray80003 = '$imagePath/img_linkedin_blue_gray_800_03.svg';
-
+  static String imgGreyBlackMoto104x158 = '$imagePath/img_grey_black_moto_104x158.png';
+  static String img21491947661104x158 = '$imagePath/img_2149194766_1_104x158.png';
+  static String imgFramesForYour = '$imagePath/img_frames_for_your.png';
+  static String imgShape60x60 = '$imagePath/img_shape_60x60.png';
+  static String imgShape5 = '$imagePath/img_shape_5.png';
+  static String imgShape6 = '$imagePath/img_shape_6.png';
+  static String img = '$imagePath/img_.png';
+  static String imgLinkedinBlueGray80005 = '$imagePath/img_linkedin_blue_gray_800_05.svg';
+  static String imgSettings = '$imagePath/img_settings.svg';
+  static String imgTelevisionPrimary = '$imagePath/img_television_primary.svg';
+  static String imgTelevisionPrimary20x20 = '$imagePath/img_television_primary_20x20.svg';
+  static String imgIcbaselinewaterdrop = '$imagePath/img_icbaselinewaterdrop.svg';
+  static String imgThumbsUp = '$imagePath/img_thumbs_up.svg';
+  static String imgShape50x50 = '$imagePath/img_shape_50x50.png';
+  static String imgShape7 = '$imagePath/img_shape_7.png';
+  static String imgShape50x60 = '$imagePath/img_shape_50x60.png';
+  static String imgShape8 = '$imagePath/img_shape_8.png';
+  static String imgShape9 = '$imagePath/img_shape_9.png';
+  static String imgShape10 = '$imagePath/img_shape_10.png';
+  static String imgShape11 = '$imagePath/img_shape_11.png';
+  static String imgArrowDown = '$imagePath/img_arrow_down.svg';
+  static String img1241641158x304 = '$imagePath/img_124164_1_158x304.png';
+  static String imgBag = '$imagePath/img_bag.svg';
+  static String imageNotFound = 'assets/images/image_not_found.png';
 }
