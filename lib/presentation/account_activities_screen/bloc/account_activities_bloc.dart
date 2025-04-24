@@ -3,7 +3,6 @@ import 'package:equatable/equatable.dart';
 import '../../../core/app_export.dart';
 import '../../../data/models/selectionPopupModel/selection_popup_model.dart';
 import '../models/account_activities_model.dart';
-
 part 'account_activities_event.dart';
 part 'account_activities_state.dart';
 
