@@ -231,7 +231,7 @@ final Map<String, String> en = {
   "lbl_my_saved_cards": "My Saved Cards",
   "lbl_my_transactions": "My Transactions",
   "lbl_name": "Name",
-  "lbl_name_surname": "Name Surname",
+  "lbl_name_surname": "Full Name",
   "lbl_neighbourhood": "Neighbourhood",
   "lbl_new_password": "New Password",
   "lbl_no_requests": "No Requests!",

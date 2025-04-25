@@ -74,3 +74,5 @@ We were unable to find the following Fonts, Please add manually to ```assets/fon
 LatoMedium.ttf
 LatoExtraBold.ttf
 ```
+
+Note: The screens which have not been copied previously, have to be reused from existing
