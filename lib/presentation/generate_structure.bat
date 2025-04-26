@@ -2,7 +2,7 @@
 setlocal
 
 :: Extract base name (remove '_screen' from folder name)
-set "main_folder=safe_e_commerce_screen"
+set "main_folder=terms_of_use_one_screen"
 set "base_name=%main_folder:_screen=%"
 
 :: Create main directory
