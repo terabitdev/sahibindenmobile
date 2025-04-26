@@ -22,7 +22,7 @@ import '../presentation/change_password_screen/change_password_screen.dart';
 import '../presentation/comment_management_one_screen/comment_management_one_screen.dart';
 import '../presentation/comment_management_screen/comment_management_screen.dart';
 import '../presentation/communication_screen/communication_screen.dart';
-// import '../presentation/comparison_list_screen/comparison_list_screen.dart';
+import '../presentation/comparison_list_screen/comparison_list_screen.dart';
 import '../presentation/completed_orders_screen/completed_orders_screen.dart';
 // import '../presentation/completed_screen/completed_screen.dart';
 import '../presentation/contracts_screen/contracts_screen.dart';
@@ -38,50 +38,50 @@ import '../presentation/device_information_screen/device_information_screen.dart
 // import '../presentation/distance_contracts_screen/distance_contracts_screen.dart';
 import '../presentation/distance_selling_contracts_screen/distance_selling_contracts_screen.dart';
 // import '../presentation/email_screen/email_screen.dart';
-// import '../presentation/help_guide_one_screen/help_guide_one_screen.dart';
-// import '../presentation/help_guide_screen/help_guide_screen.dart';
+import '../presentation/help_guide_one_screen/help_guide_one_screen.dart';
+import '../presentation/help_guide_screen/help_guide_screen.dart';
 // import '../presentation/help_guide_three_screen/help_guide_three_screen.dart';
 // import '../presentation/help_guide_two_screen/help_guide_two_screen.dart';
 // import '../presentation/home_one_screen/home_one_screen.dart';
-// import '../presentation/home_rental_guide_after_lease_screen/home_rental_guide_after_lease_screen.dart';
-// import '../presentation/home_screen/home_screen.dart';
-// import '../presentation/house_rental_guide_10_step_home_screen/house_rental_guide_10_step_home_screen.dart';
-// import '../presentation/house_rental_guide_after_lease_screen/house_rental_guide_after_lease_screen.dart';
+import '../presentation/home_rental_guide_after_lease_screen/home_rental_guide_after_lease_screen.dart';
+import '../presentation/home_screen/home_screen.dart';
+import '../presentation/house_rental_guide_10_step_home_screen/house_rental_guide_10_step_home_screen.dart';
+import '../presentation/house_rental_guide_after_lease_screen/house_rental_guide_after_lease_screen.dart';
 // import '../presentation/house_rental_guide_before_renting_screen/house_rental_guide_before_renting_screen.dart';
 // import '../presentation/house_rental_guide_screen/house_rental_guide_screen.dart';
 // import '../presentation/individual_account_agreement_screen/individual_account_agreement_screen.dart';
 // import '../presentation/information_portal_screen/information_portal_screen.dart';
-// import '../presentation/information_screen/information_screen.dart';
-// import '../presentation/login_screen/login_screen.dart';
+import '../presentation/information_screen/information_screen.dart';
+import '../presentation/login_screen/login_screen.dart';
 // import '../presentation/maintenance_repair_one_screen/maintenance_repair_one_screen.dart';
-// import '../presentation/maintenance_repair_screen/maintenance_repair_screen.dart';
+import '../presentation/maintenance_repair_screen/maintenance_repair_screen.dart';
 // import '../presentation/message_read_information_one_screen/message_read_information_one_screen.dart';
 // import '../presentation/message_read_information_screen/message_read_information_screen.dart';
 // import '../presentation/messages_one_screen/messages_one_screen.dart';
-// import '../presentation/messages_screen/messages_screen.dart';
+import '../presentation/messages_screen/messages_screen.dart';
 // import '../presentation/mobile_phone_screen/mobile_phone_screen.dart';
 // import '../presentation/my_account_information_screen/my_account_information_screen.dart';
 // import '../presentation/my_bank_information_four_screen/my_bank_information_four_screen.dart';
-// import '../presentation/my_bank_information_one_screen/my_bank_information_one_screen.dart';
-// import '../presentation/my_bank_information_screen/my_bank_information_screen.dart';
+import '../presentation/my_bank_information_one_screen/my_bank_information_one_screen.dart';
+import '../presentation/my_bank_information_screen/my_bank_information_screen.dart';
 // import '../presentation/my_bank_information_three_screen/my_bank_information_three_screen.dart';
 // import '../presentation/my_bank_information_two_screen/my_bank_information_two_screen.dart';
 // import '../presentation/my_brand_new_transactions_screen/my_brand_new_transactions_screen.dart';
 // import '../presentation/my_current_orders_screen/my_current_orders_screen.dart';
 // import '../presentation/my_delivery_billing_address_five_screen/my_delivery_billing_address_five_screen.dart';
-// import '../presentation/my_delivery_billing_address_four_screen/my_delivery_billing_address_four_screen.dart';
-// import '../presentation/my_delivery_billing_address_one_screen/my_delivery_billing_address_one_screen.dart';
+import '../presentation/my_delivery_billing_address_four_screen/my_delivery_billing_address_four_screen.dart';
+import '../presentation/my_delivery_billing_address_one_screen/my_delivery_billing_address_one_screen.dart';
 // import '../presentation/my_delivery_billing_address_screen/my_delivery_billing_address_screen.dart';
 // import '../presentation/my_delivery_billing_address_three_screen/my_delivery_billing_address_three_screen.dart';
 // import '../presentation/my_delivery_billing_address_two_screen/my_delivery_billing_address_two_screen.dart';
-// import '../presentation/my_gallery_screen/my_gallery_screen.dart';
+import '../presentation/my_gallery_screen/my_gallery_screen.dart';
 // import '../presentation/my_head_office_address_one_screen/my_head_office_address_one_screen.dart';
-// import '../presentation/my_head_office_address_screen/my_head_office_address_screen.dart';
+import '../presentation/my_head_office_address_screen/my_head_office_address_screen.dart';
 // import '../presentation/my_head_office_address_two_screen/my_head_office_address_two_screen.dart';
 // import '../presentation/my_permissions_screen/my_permissions_screen.dart';
-// import '../presentation/my_product_not_on_sales_screen/my_product_not_on_sales_screen.dart';
-// import '../presentation/my_product_offers_screen/my_product_offers_screen.dart';
-// import '../presentation/my_product_offers_two_screen/my_product_offers_two_screen.dart';
+import '../presentation/my_product_not_on_sales_screen/my_product_not_on_sales_screen.dart';
+import '../presentation/my_product_offers_screen/my_product_offers_screen.dart';
+import '../presentation/my_product_offers_two_screen/my_product_offers_two_screen.dart';
 // import '../presentation/my_product_on_sales_screen/my_product_on_sales_screen.dart';
 // import '../presentation/my_products_that_are_not_on_sale_screen/my_products_that_are_not_on_sale_screen.dart';
 // import '../presentation/my_purchase_transaction_one_screen/my_purchase_transaction_one_screen.dart';
@@ -94,14 +94,14 @@ import '../presentation/distance_selling_contracts_screen/distance_selling_contr
 // import '../presentation/oto360_one_screen/oto360_one_screen.dart';
 // import '../presentation/oto360_screen/oto360_screen.dart';
 // import '../presentation/oto360_three_screen/oto360_three_screen.dart';
-// import '../presentation/oto360_two_screen/oto360_two_screen.dart';
-// import '../presentation/past_queries_screen/past_queries_screen.dart';
-// import '../presentation/personal_information_one_screen/personal_information_one_screen.dart';
-// import '../presentation/personal_information_screen/personal_information_screen.dart';
+import '../presentation/oto360_two_screen/oto360_two_screen.dart';
+import '../presentation/past_queries_screen/past_queries_screen.dart';
+import '../presentation/personal_information_one_screen/personal_information_one_screen.dart';
+import '../presentation/personal_information_screen/personal_information_screen.dart';
 // import '../presentation/personal_information_two_screen/personal_information_two_screen.dart';
-// import '../presentation/problem_suggestion_post_screen/problem_suggestion_post_screen.dart';
-// import '../presentation/product_details_screen/product_details_screen.dart';
-// import '../presentation/products_i_purchased_screen/products_i_purchased_screen.dart';
+import '../presentation/problem_suggestion_post_screen/problem_suggestion_post_screen.dart';
+import '../presentation/product_details_screen/product_details_screen.dart';
+import '../presentation/products_i_purchased_screen/products_i_purchased_screen.dart';
 // import '../presentation/products_i_sell_screen/products_i_sell_screen.dart';
 // import '../presentation/products_on_sale_screen/products_on_sale_screen.dart';
 // import '../presentation/property_buying_guide_after_purchase_one_screen/property_buying_guide_after_purchase_one_screen.dart';
@@ -117,9 +117,9 @@ import '../presentation/distance_selling_contracts_screen/distance_selling_contr
 // import '../presentation/published_advertisements_expert_screen/published_advertisements_expert_screen.dart';
 // import '../presentation/published_advertisements_transactions_screen/published_advertisements_transactions_screen.dart';
 // import '../presentation/q_my_money_is_safe_screen/q_my_money_is_safe_screen.dart';
-// import '../presentation/real_estate_360_real_estate_expertise_screen/real_estate_360_real_estate_expertise_screen.dart';
+import '../presentation/real_estate_360_real_estate_expertise_screen/real_estate_360_real_estate_expertise_screen.dart';
 // import '../presentation/real_estate_360_real_estate_index_one_screen/real_estate_360_real_estate_index_one_screen.dart';
-// import '../presentation/real_estate_360_real_estate_index_screen/real_estate_360_real_estate_index_screen.dart';
+import '../presentation/real_estate_360_real_estate_index_screen/real_estate_360_real_estate_index_screen.dart';
 // import '../presentation/real_estate_360_real_estate_index_two_screen/real_estate_360_real_estate_index_two_screen.dart';
 // import '../presentation/real_estate_360_screen/real_estate_360_screen.dart';
 // import '../presentation/recovery_email_screen/recovery_email_screen.dart';
@@ -128,8 +128,8 @@ import '../presentation/distance_selling_contracts_screen/distance_selling_contr
 // import '../presentation/return_procedure_screen/return_procedure_screen.dart';
 // import '../presentation/returned_items_screen/returned_items_screen.dart';
 // import '../presentation/rules_and_policies_screen/rules_and_policies_screen.dart';
-// import '../presentation/safe_e_commerce_screen/safe_e_commerce_screen.dart';
-// import '../presentation/safe_e_commerce_three_screen/safe_e_commerce_three_screen.dart';
+import '../presentation/safe_e_commerce_screen/safe_e_commerce_screen.dart';
+import '../presentation/safe_e_commerce_three_screen/safe_e_commerce_three_screen.dart';
 // import '../presentation/safe_e_commerce_two_screen/safe_e_commerce_two_screen.dart';
 // import '../presentation/safe_shopping_tips_screen/safe_shopping_tips_screen.dart';
 // import '../presentation/sales_guide_10_step_sales_guide_screen/sales_guide_10_step_sales_guide_screen.dart';
@@ -137,34 +137,34 @@ import '../presentation/distance_selling_contracts_screen/distance_selling_contr
 // import '../presentation/sales_guide_pre_sales_one_screen/sales_guide_pre_sales_one_screen.dart';
 // import '../presentation/sales_guide_pre_sales_screen/sales_guide_pre_sales_screen.dart';
 // import '../presentation/sales_guide_screen/sales_guide_screen.dart';
-// import '../presentation/saved_cards_screen/saved_cards_screen.dart';
+import '../presentation/saved_cards_screen/saved_cards_screen.dart';
 // import '../presentation/search_one_screen/search_one_screen.dart';
-// import '../presentation/search_screen/search_screen.dart';
+import '../presentation/search_screen/search_screen.dart';
 // import '../presentation/services_one_screen/services_one_screen.dart';
 // import '../presentation/services_screen/services_screen.dart';
-// import '../presentation/session_devices_screen/session_devices_screen.dart';
+import '../presentation/session_devices_screen/session_devices_screen.dart';
 // import '../presentation/shopping_centre_screen/shopping_centre_screen.dart';
-// import '../presentation/sign_up_screen/sign_up_screen.dart';
+import '../presentation/sign_up_screen/sign_up_screen.dart';
 // import '../presentation/step_verification_screen/step_verification_screen.dart';
 // import '../presentation/successful_sales_one_screen/successful_sales_one_screen.dart';
-// import '../presentation/successful_sales_screen/successful_sales_screen.dart';
-// import '../presentation/summary_screen/summary_screen.dart';
-// import '../presentation/terms_of_use_one_screen/terms_of_use_one_screen.dart';
-// import '../presentation/terms_of_use_screen/terms_of_use_screen.dart';
-// import '../presentation/test_user_five_screen/test_user_five_screen.dart';
-// import '../presentation/test_user_four_screen/test_user_four_screen.dart';
-// import '../presentation/test_user_one_screen/test_user_one_screen.dart';
-// import '../presentation/test_user_screen/test_user_screen.dart';
-// import '../presentation/test_user_three_screen/test_user_three_screen.dart';
-// import '../presentation/test_user_two_screen/test_user_two_screen.dart';
+import '../presentation/successful_sales_screen/successful_sales_screen.dart';
+import '../presentation/summary_screen/summary_screen.dart';
+import '../presentation/terms_of_use_one_screen/terms_of_use_one_screen.dart';
+import '../presentation/terms_of_use_screen/terms_of_use_screen.dart';
+import '../presentation/test_user_five_screen/test_user_five_screen.dart';
+import '../presentation/test_user_four_screen/test_user_four_screen.dart';
+import '../presentation/test_user_one_screen/test_user_one_screen.dart';
+import '../presentation/test_user_screen/test_user_screen.dart';
+import '../presentation/test_user_three_screen/test_user_three_screen.dart';
+import '../presentation/test_user_two_screen/test_user_two_screen.dart';
 // import '../presentation/vehicle_buying_guide_after_purchase_one_screen/vehicle_buying_guide_after_purchase_one_screen.dart';
-// import '../presentation/vehicle_buying_guide_after_purchase_screen/vehicle_buying_guide_after_purchase_screen.dart';
+import '../presentation/vehicle_buying_guide_after_purchase_screen/vehicle_buying_guide_after_purchase_screen.dart';
 // import '../presentation/vehicle_buying_guide_after_purchase_two_screen/vehicle_buying_guide_after_purchase_two_screen.dart';
 // import '../presentation/vehicle_buying_guide_auto_dictionary_screen/vehicle_buying_guide_auto_dictionary_screen.dart';
 // import '../presentation/vehicle_buying_guide_before_purchase_screen/vehicle_buying_guide_before_purchase_screen.dart';
 // import '../presentation/vehicle_buying_guide_during_purchase_screen/vehicle_buying_guide_during_purchase_screen.dart';
 // import '../presentation/vehicle_buying_guide_screen/vehicle_buying_guide_screen.dart';
-// import '../presentation/vehicle_damage_inquiry_screen/vehicle_damage_inquiry_screen.dart';
+import '../presentation/vehicle_damage_inquiry_screen/vehicle_damage_inquiry_screen.dart';
 // import '../presentation/vehicle_purchasing_guide_in_eleven_screen/vehicle_purchasing_guide_in_eleven_screen.dart';
 // import '../presentation/vehicle_sales_guide_auto_dictionary_screen/vehicle_sales_guide_auto_dictionary_screen.dart';
 // import '../presentation/vehicle_sales_guide_during_sale_screen/vehicle_sales_guide_during_sale_screen.dart';
@@ -173,28 +173,28 @@ import '../presentation/distance_selling_contracts_screen/distance_selling_contr
 // import '../presentation/vehicle_selling_guide_screen/vehicle_selling_guide_screen.dart';
 // import '../presentation/vehicle_valuation_five_screen/vehicle_valuation_five_screen.dart';
 // import '../presentation/vehicle_valuation_four_screen/vehicle_valuation_four_screen.dart';
-// import '../presentation/vehicle_valuation_one_screen/vehicle_valuation_one_screen.dart';
-// import '../presentation/vehicle_valuation_screen/vehicle_valuation_screen.dart';
+import '../presentation/vehicle_valuation_one_screen/vehicle_valuation_one_screen.dart';
+import '../presentation/vehicle_valuation_screen/vehicle_valuation_screen.dart';
 // import '../presentation/vehicle_valuation_three_screen/vehicle_valuation_three_screen.dart';
-// import '../presentation/vehicle_valuation_two_screen/vehicle_valuation_two_screen.dart';
+import '../presentation/vehicle_valuation_two_screen/vehicle_valuation_two_screen.dart';
 // import '../presentation/verification_one_screen/verification_one_screen.dart';
 // import '../presentation/verification_screen/verification_screen.dart';
-// import '../presentation/what_i_bought_with_brand_new_screen/what_i_bought_with_brand_new_screen.dart';
-// import '../presentation/what_i_got_with_yepy_screen/what_i_got_with_yepy_screen.dart';
-// import '../presentation/what_i_sold_with_yepy_screen/what_i_sold_with_yepy_screen.dart';
-// import '../presentation/what_will_i_ship_one_screen/what_will_i_ship_one_screen.dart';
-// import '../presentation/what_will_i_ship_screen/what_will_i_ship_screen.dart';
-// import '../presentation/while_buying_screen/while_buying_screen.dart';
-// import '../presentation/while_buying_vehicle_comparison_screen/while_buying_vehicle_comparison_screen.dart';
-// import '../presentation/while_renting_screen/while_renting_screen.dart';
-// import '../presentation/while_selling_screen/while_selling_screen.dart';
-// import '../presentation/yepy_screen/yepy_screen.dart';
-// import '../presentation/zero_vehicle_world_authorized_one_screen/zero_vehicle_world_authorized_one_screen.dart';
-// import '../presentation/zero_vehicle_world_authorized_screen/zero_vehicle_world_authorized_screen.dart';
-// import '../presentation/zero_vehicle_world_campaign_vehicles_screen/zero_vehicle_world_campaign_vehicles_screen.dart';
-// import '../presentation/zero_vehicle_world_screen/zero_vehicle_world_screen.dart';
-// import '../presentation/zero_vehicle_world_vehicle_comparison_screen/zero_vehicle_world_vehicle_comparison_screen.dart';
-// import '../presentation/zero_vehicle_world_zero_vehicle_screen/zero_vehicle_world_zero_vehicle_screen.dart';
+import '../presentation/what_i_bought_with_brand_new_screen/what_i_bought_with_brand_new_screen.dart';
+import '../presentation/what_i_got_with_yepy_screen/what_i_got_with_yepy_screen.dart';
+import '../presentation/what_i_sold_with_yepy_screen/what_i_sold_with_yepy_screen.dart';
+import '../presentation/what_will_i_ship_one_screen/what_will_i_ship_one_screen.dart';
+import '../presentation/what_will_i_ship_screen/what_will_i_ship_screen.dart';
+import '../presentation/while_buying_screen/while_buying_screen.dart';
+import '../presentation/while_buying_vehicle_comparison_screen/while_buying_vehicle_comparison_screen.dart';
+import '../presentation/while_renting_screen/while_renting_screen.dart';
+import '../presentation/while_selling_screen/while_selling_screen.dart';
+import '../presentation/yepy_screen/yepy_screen.dart';
+import '../presentation/zero_vehicle_world_authorized_one_screen/zero_vehicle_world_authorized_one_screen.dart';
+import '../presentation/zero_vehicle_world_authorized_screen/zero_vehicle_world_authorized_screen.dart';
+import '../presentation/zero_vehicle_world_campaign_vehicles_screen/zero_vehicle_world_campaign_vehicles_screen.dart';
+import '../presentation/zero_vehicle_world_screen/zero_vehicle_world_screen.dart';
+import '../presentation/zero_vehicle_world_vehicle_comparison_screen/zero_vehicle_world_vehicle_comparison_screen.dart';
+import '../presentation/zero_vehicle_world_zero_vehicle_screen/zero_vehicle_world_zero_vehicle_screen.dart';
 
 class AppRoutes {
   static const String maintenanceRepairScreen = '/maintenance_repair_screen';
@@ -719,25 +719,27 @@ class AppRoutes {
 
   static const String myProductOnSalesScreen = '/my_product_on_sales_screen';
 
+  static const String myProductNotOnSalesScreen = '/my_product_not_on_sales_screen';
+
   static const String returnedItemsScreen = '/returned_items_screen';
 
   static const String successfulSalesScreen = '/successful_sales_screen';
 
   static const String appNavigationScreen = '/app_navigation_screen';
 
-  // static const String initialRoute = '/initialRoute';
-  static const String initialRoute = '/about_screen';
+  static const String initialRoute = '/initialRoute';
+  // static const String initialRoute = '/about_screen';
 
   static Map<String, WidgetBuilder> get routes => {
-    // maintenanceRepairScreen: MaintenanceRepairScreen.builder,
+    maintenanceRepairScreen: MaintenanceRepairScreen.builder,
     creditScreen: CreditScreen.builder,
-    // whileBuyingVehicleComparisonScreen:
-    // WhileBuyingVehicleComparisonScreen.builder,
-    // vehicleValuationScreen: VehicleValuationScreen.builder,
-    // vehicleValuationOneScreen: VehicleValuationOneScreen.builder,
-    // vehicleValuationTwoScreen: VehicleValuationTwoScreen.builder,
-    // vehicleDamageInquiryScreen: VehicleDamageInquiryScreen.builder,
-    // pastQueriesScreen: PastQueriesScreen.builder,
+    whileBuyingVehicleComparisonScreen:
+    WhileBuyingVehicleComparisonScreen.builder,
+    vehicleValuationScreen: VehicleValuationScreen.builder,
+    vehicleValuationOneScreen: VehicleValuationOneScreen.builder,
+    vehicleValuationTwoScreen: VehicleValuationTwoScreen.builder,
+    vehicleDamageInquiryScreen: VehicleDamageInquiryScreen.builder,
+    pastQueriesScreen: PastQueriesScreen.builder,
     autoExpertiseScreen: AutoExpertiseScreen.builder,
     // vehicleBuyingGuideScreen: VehicleBuyingGuideScreen.builder,
     // vehiclePurchasingGuideInElevenScreen:
@@ -746,8 +748,8 @@ class AppRoutes {
     // VehicleBuyingGuideBeforePurchaseScreen.builder,
     // vehicleBuyingGuideDuringPurchaseScreen:
     // VehicleBuyingGuideDuringPurchaseScreen.builder,
-    // vehicleBuyingGuideAfterPurchaseScreen:
-    // VehicleBuyingGuideAfterPurchaseScreen.builder,
+    vehicleBuyingGuideAfterPurchaseScreen:
+    VehicleBuyingGuideAfterPurchaseScreen.builder,
     // vehicleBuyingGuideAfterPurchaseOneScreen:
     // VehicleBuyingGuideAfterPurchaseOneScreen.builder,
     // vehicleBuyingGuideAutoDictionaryScreen:
@@ -766,20 +768,20 @@ class AppRoutes {
     // VehicleSalesGuideAutoDictionaryScreen.builder,
     // vehicleBuyingGuideAfterPurchaseTwoScreen:
     // VehicleBuyingGuideAfterPurchaseTwoScreen.builder,
-    // zeroVehicleWorldScreen: ZeroVehicleWorldScreen.builder,
-    // zeroVehicleWorldVehicleComparisonScreen:
-    // ZeroVehicleWorldVehicleComparisonScreen.builder,
-    // zeroVehicleWorldZeroVehicleScreen:
-    // ZeroVehicleWorldZeroVehicleScreen.builder,
-    // zeroVehicleWorldCampaignVehiclesScreen:
-    // ZeroVehicleWorldCampaignVehiclesScreen.builder,
-    // zeroVehicleWorldAuthorizedScreen:
-    // ZeroVehicleWorldAuthorizedOneScreen.builder,
+    zeroVehicleWorldScreen: ZeroVehicleWorldScreen.builder,
+    zeroVehicleWorldVehicleComparisonScreen:
+    ZeroVehicleWorldVehicleComparisonScreen.builder,
+    zeroVehicleWorldZeroVehicleScreen:
+    ZeroVehicleWorldZeroVehicleScreen.builder,
+    zeroVehicleWorldCampaignVehiclesScreen:
+    ZeroVehicleWorldCampaignVehiclesScreen.builder,
+    zeroVehicleWorldAuthorizedScreen:
+    ZeroVehicleWorldAuthorizedOneScreen.builder,
     // servicesScreen: ServicesScreen.builder,
     // realEstate360Screen: RealEstate360Screen.builder,
-    // whileBuyingScreen: WhileBuyingScreen.builder,
-    // realEstate360RealEstateExpertiseScreen:
-    // RealEstate360RealEstateExpertiseScreen.builder,
+    whileBuyingScreen: WhileBuyingScreen.builder,
+    realEstate360RealEstateExpertiseScreen:
+    RealEstate360RealEstateExpertiseScreen.builder,
     // propertyBuyingGuideScreen: PropertyBuyingGuideScreen.builder,
     // propertyBuyingGuideHomeBuyingScreen:
     // PropertyBuyingGuideHomeBuyingScreen.builder,
@@ -793,56 +795,56 @@ class AppRoutes {
     // PropertyBuyingGuideAfterPurchaseScreen.builder,
     // propertyBuyingGuideAfterPurchaseOneScreen:
     // PropertyBuyingGuideAfterPurchaseOneScreen.builder,
-    // realEstate360RealEstateIndexScreen:
-    // RealEstate360RealEstateIndexScreen.builder,
-    // personalInformationScreen: PersonalInformationScreen.builder,
-    // personalInformationOneScreen: PersonalInformationOneScreen.builder,
+    realEstate360RealEstateIndexScreen:
+    RealEstate360RealEstateIndexScreen.builder,
+    personalInformationScreen: PersonalInformationScreen.builder,
+    personalInformationOneScreen: PersonalInformationOneScreen.builder,
     // emailScreen: EmailScreen.builder,
     // mobilePhoneScreen: MobilePhoneScreen.builder,
     changePasswordScreen: ChangePasswordScreen.builder,
-    // myDeliveryBillingAddressOneScreen:
-    // MyDeliveryBillingAddressOneScreen.builder,
+    myDeliveryBillingAddressOneScreen:
+    MyDeliveryBillingAddressOneScreen.builder,
     // myDeliveryBillingAddressTwoScreen:
     // MyDeliveryBillingAddressTwoScreen.builder,
-    // myBankInformationScreen: MyBankInformationScreen.builder,
-    // myBankInformationOneScreen: MyBankInformationOneScreen.builder,
-    // myHeadOfficeAddressScreen: MyHeadOfficeAddressScreen.builder,
+    myBankInformationScreen: MyBankInformationScreen.builder,
+    myBankInformationOneScreen: MyBankInformationOneScreen.builder,
+    myHeadOfficeAddressScreen: MyHeadOfficeAddressScreen.builder,
     // myPurchaseTransactionScreen: MyPurchaseTransactionScreen.builder,
     // mySalesTransactionScreen: MySalesTransactionScreen.builder,
-    // whatIGotWithYepyScreen: WhatIGotWithYepyScreen.builder,
+    whatIGotWithYepyScreen: WhatIGotWithYepyScreen.builder,
     adManagementSummaryScreen: AdManagementSummaryScreen.builder,
     // creditOneScreen: CreditOneScreen.builder,
     // creditTwoScreen: CreditTwoScreen.builder,
-    // whileRentingScreen: WhileRentingScreen.builder,
-    // whileSellingScreen: WhileSellingScreen.builder,
-    // loginScreen: LoginScreen.builder,
-    // signUpScreen: SignUpScreen.builder,
+    whileRentingScreen: WhileRentingScreen.builder,
+    whileSellingScreen: WhileSellingScreen.builder,
+    loginScreen: LoginScreen.builder,
+    signUpScreen: SignUpScreen.builder,
     // servicesOneScreen: ServicesOneScreen.builder,
     // oto360Screen: Oto360Screen.builder,
     // oto360OneScreen: Oto360OneScreen.builder,
     // recoveryEmailScreen: RecoveryEmailScreen.builder,
-    // sessionDevicesScreen: SessionDevicesScreen.builder,
+    sessionDevicesScreen: SessionDevicesScreen.builder,
     // accountActivitiesScreen: AccountActivitiesScreen.builder,
     accountHolderBlockedScreen: AccountHolderBlockedScreen.builder,
-    // oto360TwoScreen: Oto360TwoScreen.builder,
+    oto360TwoScreen: Oto360TwoScreen.builder,
     // oto360ThreeScreen: Oto360ThreeScreen.builder,
     // myCurrentOrdersScreen: MyCurrentOrdersScreen.builder,
     // returnCancellationScreen: ReturnCancellationScreen.builder,
-    // completedOrdersScreen: CompletedOrdersScreen.builder,
+    completedOrdersScreen: CompletedOrdersScreen.builder,
     // distanceContractsScreen: DistanceContractsScreen.builder,
     // productsOnSaleScreen: ProductsOnSaleScreen.builder,
-    // whatWillIShipOneScreen: WhatWillIShipOneScreen.builder,
+    whatWillIShipOneScreen: WhatWillIShipOneScreen.builder,
     // houseRentalGuideScreen: HouseRentalGuideScreen.builder,
     // realEstate360RealEstateIndexOneScreen:
     // RealEstate360RealEstateIndexOneScreen.builder,
-    // houseRentalGuide10StepHomeScreen:
-    // HouseRentalGuide10StepHomeScreen.builder,
+    houseRentalGuide10StepHomeScreen:
+    HouseRentalGuide10StepHomeScreen.builder,
     // houseRentalGuideBeforeRentingScreen:
     // HouseRentalGuideBeforeRentingScreen.builder,
-    // houseRentalGuideAfterLeaseScreen:
-    // HouseRentalGuideAfterLeaseScreen.builder,
-    // homeRentalGuideAfterLeaseScreen:
-    // HomeRentalGuideAfterLeaseScreen.builder,
+    houseRentalGuideAfterLeaseScreen:
+    HouseRentalGuideAfterLeaseScreen.builder,
+    homeRentalGuideAfterLeaseScreen:
+    HomeRentalGuideAfterLeaseScreen.builder,
     // realEstate360RealEstateIndexTwoScreen:
     // RealEstate360RealEstateIndexTwoScreen.builder,
     // salesGuideScreen: SalesGuideScreen.builder,
@@ -855,14 +857,14 @@ class AppRoutes {
     // myBankInformationTwoScreen: MyBankInformationTwoScreen.builder,
     // myHeadOfficeAddressOneScreen: MyHeadOfficeAddressOneScreen.builder,
     // distanceContractsOneScreen: DistanceContractsOneScreen.builder,
-    // homeScreen: HomeScreen.builder,
-    // categorySelectionScreen: CategorySelectionScreen.builder,
+    homeScreen: HomeScreen.builder,
+    categorySelectionScreen: CategorySelectionScreen.builder,
     // categorySelectionOneScreen: CategorySelectionOneScreen.builder,
     // categorySelectionTwoScreen: CategorySelectionTwoScreen.builder,
-    // searchScreen: SearchScreen.builder,
+    searchScreen: SearchScreen.builder,
     // autoExpertiseTwoScreen: AutoExpertiseTwoScreen.builder,
     // searchOneScreen: SearchOneScreen.builder,
-    // productDetailsScreen: ProductDetailsScreen.builder,
+    productDetailsScreen: ProductDetailsScreen.builder,
     // notificationsScreen: NotificationsScreen.builder,
     // propertyBuyingGuideAutoDictionaryOneScreen:
     // PropertyBuyingGuideAutoDictionaryOneScreen.builder,
@@ -870,19 +872,19 @@ class AppRoutes {
     // PropertyBuyingGuideAutoDictionaryTwoScreen.builder,
     // myDeliveryBillingAddressThreeScreen:
     // MyDeliveryBillingAddressThreeScreen.builder,
-    // myDeliveryBillingAddressFourScreen:
-    // MyDeliveryBillingAddressFourScreen.builder,
-    // commentManagementOneScreen: CommentManagementOneScreen.builder,
-    // messagesScreen: MessagesScreen.builder,
+    myDeliveryBillingAddressFourScreen:
+    MyDeliveryBillingAddressFourScreen.builder,
+    commentManagementOneScreen: CommentManagementOneScreen.builder,
+    messagesScreen: MessagesScreen.builder,
     // publishedAdvertisementsTransactionsScreen:
     // PublishedAdvertisementsTransactionsScreen.builder,
     // publishedAdvertisementsExpertScreen:
     // PublishedAdvertisementsExpertScreen.builder,
-    // informationScreen: InformationScreen.builder,
-    // testUserTwoScreen: TestUserTwoScreen.builder,
+    informationScreen: InformationScreen.builder,
+    testUserTwoScreen: TestUserTwoScreen.builder,
     // homeOneScreen: HomeOneScreen.builder,
-    // comparisonListScreen: ComparisonListScreen.builder,
-    // testUserThreeScreen: TestUserThreeScreen.builder,
+    comparisonListScreen: ComparisonListScreen.builder,
+    testUserThreeScreen: TestUserThreeScreen.builder,
     // qMyMoneyIsSafeScreen: QMyMoneyIsSafeScreen.builder,
     // myPurchaseTransactionOneScreen: MyPurchaseTransactionOneScreen.builder,
     // mySalesTransactionOneScreen: MySalesTransactionOneScreen.builder,
@@ -891,18 +893,18 @@ class AppRoutes {
     // myBankInformationThreeScreen: MyBankInformationThreeScreen.builder,
     // myBankInformationFourScreen: MyBankInformationFourScreen.builder,
     // myHeadOfficeAddressTwoScreen: MyHeadOfficeAddressTwoScreen.builder,
-    // testUserFourScreen: TestUserFourScreen.builder,
+    testUserFourScreen: TestUserFourScreen.builder,
     // myAccountInformationScreen: MyAccountInformationScreen.builder,
     // personalInformationTwoScreen: PersonalInformationTwoScreen.builder,
     // verificationOneScreen: VerificationOneScreen.builder,
     deleteAccountScreen: DeleteAccountScreen.builder,
-    // savedCardsScreen: SavedCardsScreen.builder,
-    // testUserFiveScreen: TestUserFiveScreen.builder,
+    savedCardsScreen: SavedCardsScreen.builder,
+    testUserFiveScreen: TestUserFiveScreen.builder,
     // helpGuideTwoScreen: HelpGuideTwoScreen.builder,
     // helpGuideThreeScreen: HelpGuideThreeScreen.builder,
-    // helpGuideScreen: HelpGuideScreen.builder,
-    // helpGuideOneScreen: HelpGuideOneScreen.builder,
-    // problemSuggestionPostScreen: ProblemSuggestionPostScreen.builder,
+    helpGuideScreen: HelpGuideScreen.builder,
+    helpGuideOneScreen: HelpGuideOneScreen.builder,
+    problemSuggestionPostScreen: ProblemSuggestionPostScreen.builder,
     aboutScreen: AboutScreen.builder,
     // myPermissionsScreen: MyPermissionsScreen.builder,
     // messageReadInformationScreen: MessageReadInformationScreen.builder,
@@ -910,8 +912,8 @@ class AppRoutes {
     // MessageReadInformationOneScreen.builder,
     communicationScreen: CommunicationScreen.builder,
     // safeShoppingTipsScreen: SafeShoppingTipsScreen.builder,
-    // termsOfUseScreen: TermsOfUseScreen.builder,
-    // termsOfUseOneScreen: TermsOfUseOneScreen.builder,
+    termsOfUseScreen: TermsOfUseScreen.builder,
+    termsOfUseOneScreen: TermsOfUseOneScreen.builder,
     accountAgreementScreen: AccountAgreementScreen.builder,
     // individualAccountAgreementScreen:
     // IndividualAccountAgreementScreen.builder,
@@ -919,28 +921,28 @@ class AppRoutes {
     contractsScreen: ContractsScreen.builder,
     // rulesAndPoliciesScreen: RulesAndPoliciesScreen.builder,
     // cookieManagementScreen: CookieManagementScreen.builder,
-    // myProductOffersScreen: MyProductOffersScreen.builder,
+    myProductOffersScreen: MyProductOffersScreen.builder,
     accountTranscationScreen: AccountTranscationScreen.builder,
     // informationPortalScreen: InformationPortalScreen.builder,
     corporateAccountScreen: CorporateAccountScreen.builder,
-    // whatIBoughtWithBrandNewScreen: WhatIBoughtWithBrandNewScreen.builder,
-    // myProductOffersTwoScreen: MyProductOffersTwoScreen.builder,
-    // yepyScreen: YepyScreen.builder,
+    whatIBoughtWithBrandNewScreen: WhatIBoughtWithBrandNewScreen.builder,
+    myProductOffersTwoScreen: MyProductOffersTwoScreen.builder,
+    yepyScreen: YepyScreen.builder,
     deviceInformationScreen: DeviceInformationScreen.builder,
-    // safeECommerceScreen: SafeECommerceScreen.builder,
+    safeECommerceScreen: SafeECommerceScreen.builder,
     // safeECommerceTwoScreen: SafeECommerceTwoScreen.builder,
     // myDeliveryBillingAddressScreen: MyDeliveryBillingAddressScreen.builder,
-    // safeECommerceThreeScreen: SafeECommerceThreeScreen.builder,
-    // whatWillIShipScreen: WhatWillIShipScreen.builder,
+    safeECommerceThreeScreen: SafeECommerceThreeScreen.builder,
+    whatWillIShipScreen: WhatWillIShipScreen.builder,
     // approvalFromBuyerScreen: ApprovalFromBuyerScreen.builder,
     // returnProcedureScreen: ReturnProcedureScreen.builder,
     // completedScreen: CompletedScreen.builder,
     distanceSellingContractsScreen: DistanceSellingContractsScreen.builder,
     // myProductOnSalesScreen: MyProductOnSalesScreen.builder,
     // returnedItemsScreen: ReturnedItemsScreen.builder,
-    // myProductNotOnSalesScreen: MyProductNotOnSalesScreen.builder,
-    // successfulSalesScreen: SuccessfulSalesScreen.builder,
+    myProductNotOnSalesScreen: MyProductNotOnSalesScreen.builder,
+    successfulSalesScreen: SuccessfulSalesScreen.builder,
     // appNavigationScreen: AppNavigationScreen.builder,
-    // initialRoute: MaintenanceRepairScreen.builder
+    initialRoute: LoginScreen.builder
   };
 }

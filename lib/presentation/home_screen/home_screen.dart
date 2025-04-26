@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:sahibindenmobile/presentation/my_product_not_on_sales_screen/my_product_not_on_sales_screen.dart';
 import '../../core/app_export.dart';
 import '../../widgets/custom_bottom_bar.dart';
+import '../search_screen/search_screen.dart';
 import 'bloc/home_bloc.dart';
 import 'home_initial_page.dart';
 import 'models/home_model.dart';
@@ -68,7 +70,7 @@ class HomeScreen extends StatelessWidget {
       case BottomBarEnum.Iconhouseactive:
         return AppRoutes.homeInitialPage;
       case BottomBarEnum.Rewindbluegray800:
-        return "/";
+        return AppRoutes.searchScreen;
       case BottomBarEnum.Favoritebluegray800:
         return "/";
       case BottomBarEnum.Lockbluegray800:
@@ -86,6 +88,8 @@ class HomeScreen extends StatelessWidget {
     switch (currentRoute) {
       case AppRoutes.homeInitialPage:
         return HomeInitialPage.builder(context);
+      case AppRoutes.searchScreen:
+        return SearchScreen.builder(context);
       default:
         return DefaultWidget();
     }

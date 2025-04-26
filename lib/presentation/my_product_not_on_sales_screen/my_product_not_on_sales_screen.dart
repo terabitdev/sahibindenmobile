@@ -12,7 +12,7 @@ import 'models/my_product_not_on_sales_model.dart';
 import 'widgets/gridhighett_item_widget.dart';
 
 class MyProductNotOnSalesScreen extends StatelessWidget {
-  const MyProductNotOnSalesScreen({Key? key})
+  MyProductNotOnSalesScreen({Key? key})
       : super(
     key: key,
   );

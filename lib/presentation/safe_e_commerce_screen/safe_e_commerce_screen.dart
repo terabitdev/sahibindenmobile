@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sahibindenmobile/presentation/comment_management_screen/comment_management_screen.dart';
+import 'package:sahibindenmobile/presentation/my_delivery_billing_address_one_screen/my_delivery_billing_address_one_screen.dart';
+import 'package:sahibindenmobile/presentation/safe_e_commerce_three_screen/safe_e_commerce_three_screen.dart';
 import '../../core/app_export.dart';
 import '../../widgets/app_bar/appbar_leading_image.dart';
 import '../../widgets/app_bar/appbar_title.dart';
@@ -62,8 +65,8 @@ class SafeECommerceScreenState extends State<SafeECommerceScreen>
                     children: [
                       SafeTabPage.builder(context),
                       SafeECommerceOnePage.builder(context),
-                      SafeECommerceOnePage.builder(context),
-                      SafeECommerceOnePage.builder(context)
+                      MyDeliveryBillingAddressOneScreen.builder(context),
+                      CommentManagementScreen.builder(context),
                     ],
                   ),
                 ),

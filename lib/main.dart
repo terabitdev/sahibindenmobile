@@ -6,6 +6,10 @@ import 'core/app_export.dart';
 var globalMessengerKey = GlobalKey<ScaffoldMessengerState>();
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+  //   statusBarBrightness: Brightness.dark,
+  //   statusBarColor: Colors.white
+  // ));
   Future.wait([
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
   ]).then((value) {
@@ -48,7 +52,7 @@ class MyApp extends StatelessWidget {
                 ],
                 locale: Locale('en', ''),
                 supportedLocales: [Locale('en', '')],
-                initialRoute: AppRoutes.accountTranscationScreen,
+                initialRoute: AppRoutes.initialRoute,
                 routes: AppRoutes.routes,
               );
             },

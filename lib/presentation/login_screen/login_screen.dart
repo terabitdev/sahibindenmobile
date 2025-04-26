@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import '../../core/app_export.dart';
 import '../../core/utils/validation_functions.dart';
@@ -107,6 +108,9 @@ class LoginScreen extends StatelessWidget {
                             text: " ",
                           ),
                           TextSpan(
+                            recognizer: TapGestureRecognizer()..onTap=(){
+                              onTapRegister(context);
+                            },
                             text: "lbl_register".tr,
                             style: CustomTextStyles.labelLargeLatoPrimary,
                           )
@@ -303,6 +307,12 @@ class LoginScreen extends StatelessWidget {
           )
         ],
       ),
+    );
+  }
+
+  onTapRegister(BuildContext context) {
+    NavigatorService.pushNamed(
+      AppRoutes.signUpScreen,
     );
   }
 

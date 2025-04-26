@@ -97,7 +97,7 @@ class TestUserScreen extends StatelessWidget {
     return BlocSelector<TestUserBloc, TestUserState, TextEditingController?>(
       selector: (state) => state.whatsonairController,
       builder: (context, whatsonairController) {
-        return CustomTextFormField(
+          return CustomTextFormField(
           controller: whatsonairController,
           hintText: "lbl_what_s_on_air".tr,
           contentPadding: EdgeInsets.fromLTRB(12.h, 12.h, 12.h, 16.h),

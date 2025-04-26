@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sahibindenmobile/widgets/app_bar/primary_app_bar.dart';
 import '../../core/app_export.dart';
 import '../../widgets/app_bar/appbar_leading_image.dart';
 import '../../widgets/app_bar/appbar_subtitle_three.dart';
@@ -100,17 +101,9 @@ class HomeInitialPageState extends State<HomeInitialPage>
 
   /// Section Widget
   PreferredSizeWidget _buildAppbar(BuildContext context) {
-    return CustomAppBar(
-      height: 58.h,
-      leadingWidth: 50.h,
-      leading: AppbarLeadingImage(
-        imagePath: ImageConstant.imgFrameOnprimary,
-        margin: EdgeInsets.only(left: 30.h),
-      ),
-      title: AppbarSubtitleThree(
-        text: "lbl_sahibinden_com".tr,
-        margin: EdgeInsets.only(left: 30.h),
-      ),
+    return buildPrimaryAppbar(
+      context,
+      title: "lbl_sahibinden_com".tr,
       actions: [
         AppbarTrailingImage(
           imagePath: ImageConstant.imgLockOnprimary,
@@ -126,9 +119,38 @@ class HomeInitialPageState extends State<HomeInitialPage>
           },
         )
       ],
-      styleType: Style.bgFillPrimary,
     );
   }
+  // PreferredSizeWidget _buildAppbar(BuildContext context) {
+  //   return CustomAppBar(
+  //     height: 58.h,
+  //     leadingWidth: 50.h,
+  //     leading: AppbarLeadingImage(
+  //       imagePath: ImageConstant.imgFrameOnprimary,
+  //       margin: EdgeInsets.only(left: 30.h),
+  //     ),
+  //     title: AppbarSubtitleThree(
+  //       text: "lbl_sahibinden_com".tr,
+  //       margin: EdgeInsets.only(left: 30.h),
+  //     ),
+  //     actions: [
+  //       AppbarTrailingImage(
+  //         imagePath: ImageConstant.imgLockOnprimary,
+  //       ),
+  //       AppbarTrailingImage(
+  //         imagePath: ImageConstant.imgLockOnprimary20x20,
+  //         margin: EdgeInsets.only(
+  //           left: 17.h,
+  //           right: 68.h,
+  //         ),
+  //         onTap: () {
+  //           onTapLockthree(context);
+  //         },
+  //       )
+  //     ],
+  //     styleType: Style.bgFillPrimary,
+  //   );
+  // }
 
   /// Section Widget
   Widget _buildColumnreal(BuildContext context) {

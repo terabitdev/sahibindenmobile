@@ -103,7 +103,7 @@ class CategorySelectionScreen extends StatelessWidget {
   /// Section Widget
   PreferredSizeWidget _buildAppbar(BuildContext context) {
     return CustomAppBar(
-      height: 58.h,
+      // height: 58.h,
       leadingWidth: 50.h,
       leading: AppbarLeadingImage(
         imagePath: ImageConstant.imgFrameOnprimary,

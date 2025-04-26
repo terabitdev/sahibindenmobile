@@ -27,3 +27,48 @@ flutter:
   assets:
     - assets/
     - assets/images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+    - family: Lexend Deca
+      fonts:
+        - asset: assets/fonts/LexendDecaRegular.ttf
+          weight: 400
+    - family: Raleway
+      fonts:
+#        - asset: assets/fonts/RalewayRomanBold.ttf
+#          weight: 700
+        - asset: assets/fonts/RalewayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayRegular.ttf
+          weight: 400
+#        - asset: assets/fonts/RalewayRomanSemiBold.ttf
+#          weight: 600
+        - asset: assets/fonts/RalewaySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayBold.ttf
+          weight: 700
+#        - asset: assets/fonts/RalewayRomanMedium.ttf
+#          weight: 500
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
